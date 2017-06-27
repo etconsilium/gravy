@@ -2,9 +2,6 @@
     "name": "concilium.pro/gravy",
     "description": "Special build for internal use by Concilium.Pro",
     "type": "ebuild",
-    "require": {
-        "getgrav/grav": "*"
-    },
     "license": "WTFPL",
     "authors": [
         {
@@ -12,5 +9,9 @@
             "email": "soft@concilium.pro"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "scripts": {
+        "pre-autoload-dump": "@composer create-project getgrav/grav ./"
+    }
+
 }
