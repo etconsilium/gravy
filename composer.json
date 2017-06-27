@@ -1,0 +1,16 @@
+{
+    "name": "concilium.pro/gravy",
+    "description": "Special build for internal use by Concilium.Pro",
+    "type": "ebuild",
+    "require": {
+        "getgrav/grav": "*"
+    },
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "DevOps",
+            "email": "soft@concilium.pro"
+        }
+    ],
+    "minimum-stability": "stable"
+}
