@@ -69,7 +69,6 @@ tests/error.log
 # Files
 *.env
 *.lock
-.*
 ~*
-!*.example
+!/*.example
 
