@@ -39,29 +39,21 @@ Icon?
 Thumbs.db
 *.swp
 
-
-# Files
-*.env
-*.lock
-.*
-~*
-!/*.example
-
 # Grav Specific
 backup/*
-!backup/.*
+#!backup/.*
 cache/*
-!cache/.*
+#!cache/.*
 #assets/*
 #!assets/.*
 logs/*
 !logs/.*
 #images/*
 #!images/.*
-#user/accounts/*
-#!user/accounts/.*
-#user/data/*
-#!user/data/.*
+user/accounts/*
+!user/accounts/.*
+user/data/*
+!user/data/.*
 #user/plugins/*
 #!user/plugins/.*
 #user/themes/*
@@ -73,3 +65,11 @@ tests/_output/*
 tests/_support/_generated/*
 tests/cache/*
 tests/error.log
+
+# Files
+*.env
+*.lock
+.*
+~*
+!*.example
+
